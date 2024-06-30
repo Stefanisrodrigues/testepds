@@ -1,0 +1,110 @@
+#cabecalho-padrao {
+    margin: 0;
+    padding: 0;
+
+}
+.icon-search{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 18px;
+}
+.logo-pesquisar{
+    display: flex;
+}
+.nav-link:hover{
+    color: #C92071 !important;
+}
+.nav-link{
+    color: black !important;
+}
+.menu-navegação{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.d-flex{
+    margin-right: 100px;
+    width:500px;
+}
+.container-fluid{
+    justify-content: space-evenly !important;
+    gap: 100px;
+}
+.btn-cadastro{
+    color: black !important;
+}
+.btn-entrar{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:  #C92071 ;
+    color: white;
+    text-align: center;
+    border-color: #C92071;
+}
+.btn-entrar:hover{
+    background-color:darkgrey !important;
+    border: none;
+}
+
+@import url(css/rodape-padrao.css);
+
+#rodape-padrao{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    scroll-behavior: smooth;
+  }
+
+.site-footer{
+    background-color: #1f1f1f;
+    color: white;
+
+}
+
+.coluna{
+    margin-right: 200px;
+}
+
+.col{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.titulo-footer{
+    font-size: 18px;
+}
+.icones-footer{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.copyright-footer{
+    text-align: center;
+    padding: 20px;
+
+}
+  
+  .map-responsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+ }
+
+ .map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+ }
